@@ -9,3 +9,14 @@ This repository is for reporting errors in MiniKit-JS SDK and Nest.js.
 1. Clone this repository
 2. Install dependencies (`yarn install`)
 3. Run the server in dev mode (`yarn start:dev`)
+4. Check the server is running on `http://localhost:3000`
+
+## Error Report
+
+```
+node:internal/modules/cjs/loader:1251
+  throw err;
+  ^
+
+Error: Cannot find module 'react'
+```
